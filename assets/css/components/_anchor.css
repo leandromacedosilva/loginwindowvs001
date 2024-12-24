@@ -1,0 +1,10 @@
+.li-link-login a {
+    font-size: 32px;
+    color: var(--white-color);
+    font-weight: 700;
+    transition: .9s;
+}
+
+.li-link-login a:hover {
+    color: #749487;
+}
