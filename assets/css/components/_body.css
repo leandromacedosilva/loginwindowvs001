@@ -1,0 +1,115 @@
+/*Login*/
+body {
+  /* background: url("https://images.unsplash.com/photo-1542640244-7e672d6cef4e?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"); */
+  /* background: url("https://images.unsplash.com/photo-1445264918150-66a2371142a2?q=80&w=1528&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"); */
+  background: url("https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?q=80&w=1374&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+  background-size: cover;
+  background-position: center;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.wrapper {
+  width: 420px;
+  background: transparent;
+  /* border: 1px solid #9b9b9b; */
+  border: 1px solid rgba(255, 255, 255, 0.2)
+  backdrop-filter: blur(20px);
+  border-radius: 10px;
+  padding: 30px 40px;
+}
+
+h1 {
+  font-size: 36px;
+  text-align: center;
+  color: var(--white-color);
+}
+
+.input-container {
+  position: relative;
+  width: 100%;
+  height: 50px;
+  margin: 30px 0;
+}
+
+.input-container input {
+  width: 100%;
+  height: 100%;
+  background: transparent;
+  border: none;
+  outline: none;
+  border: 2px solid rgba(255, 255, 255, 0.2);
+  border-radius: 10px;
+  font-size: 16px;
+  color: var(--white-color);
+  padding: 20px 45px 20px 20px;
+}
+
+.input-container input::placeholder {
+  color: var(--white-color);
+}
+
+.input-container img {
+  position: absolute;
+  right: 24px;
+  top: 20%;
+  margin-top: 5px;
+}
+
+.input-container a {
+  font-size: 16px;
+  margin-top: 5px;
+  color: var(--white-color);
+  text-decoration: none;
+}
+
+.input-container a:hover {
+  text-decoration: underline;
+}
+
+.submit-button {
+  width: 100%;
+  height: 50px;
+  background-color: #5100b5;
+  border: none;
+  border-radius: 10px;
+  color: var(--white-color);
+  font-weight: 500;
+  margin-top: 24px;
+  cursor: pointer;
+  outline: none;
+  font-size: 16px;
+}
+
+.submit-button:hover {
+  background-color: #6e16da;
+}
+
+.register-link p {
+  font-size: 16px;
+  color: var(--white-color);
+  font-weight: 500;
+}
+
+.register-link {
+  text-align: center;
+  margin: 20px 0;
+} 
+
+.register-link p a {
+  font-size: 16px;
+  color: var(--white-color);
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.register-link p a:hover {
+  text-decoration: underline;
+}
+
+footer {
+  margin-top: 25em;
+  text-align: center;
+}
