@@ -11,7 +11,7 @@
 }
 
 body {
-  background: linear-gradient(to right, hsla(237 100% 0% / 0.63), hsla(237 0% 0% / 0.63));
+  /* background: linear-gradient(to right, hsla(237 100% 0% / 0.63), hsla(237 0% 0% / 0.63)); */
   color: var(--white-color);
   font-family: "Sora",sans-serif;
 }
